@@ -30,6 +30,7 @@ namespace proj1
   
     class Program
     {
+        //method to Search for the views in HTML text
 
         public static string GetBetween(string strSource, string strStart, string strEnd)
         {
@@ -42,6 +43,7 @@ namespace proj1
                 return strSource.Substring(Start, End - Start);
             }
 
+            // The value "204" represents the error in this Process
             return "204";
         }
 
@@ -110,6 +112,10 @@ namespace proj1
 
 
 
+
+
+
+
 //for get url veide
 //string strStart = ":{\"webCommandMetadata\":{\"url\":\"/watch?v=";
 //string strEnd = "\",\"webPageType\":\"";
@@ -125,5 +131,3 @@ namespace proj1
 //    count++;
 //}
 //Console.WriteLine("{0}" + " Found " + "{1}" + " Times", SpecificWord, count);
-
-
